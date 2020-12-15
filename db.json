@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "primer usuario",
+            "username": "primerUsu",
+            "email": "primer@mail.com",
+            "image": "https:\/\/i.ibb.co\/ZH7356D\/cody.jpg"
+        },
+        {
+            "id": 2,
+            "name": "segundo usuario",
+            "username": "segundoUsu",
+            "email": "segundo@mail.com",
+            "image": "https:\/\/i.ibb.co\/ZH7356D\/cody.jpg"
+        },
+        {
+            "id": 3,
+            "name": "tercer usuario",
+            "username": "tercerUsu",
+            "email": "tercer@mail.com",
+            "image": "https:\/\/i.ibb.co\/ZH7356D\/cody.jpg"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1"
+            "body": "texto primer post",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "body": "texto segundo post",
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "title": "Post 3",
+            "body": "texto tercer post",
+            "userId": 2
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ]
+}
